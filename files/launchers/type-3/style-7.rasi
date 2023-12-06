@@ -22,11 +22,11 @@ configuration {
 /*****----- Main Window -----*****/
 window {
     transparency:                "real";
-    location:                    west;
-    anchor:                      west;
+    location:                    center;
+    anchor:                      center;
     fullscreen:                  false;
-    width:                       600px;
-    height:                      100%;
+    width:                       800px;
+    height:                      80%;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -60,7 +60,7 @@ inputbar {
     margin:                      0px;
     padding:                     12px 16px;
     border:                      0px 0px 2px 0px;
-    border-radius:               100%;
+    border-radius:               0%;
     border-color:                @selected;
     background-color:            @background-alt;
     text-color:                  @foreground;
@@ -138,7 +138,7 @@ element normal.normal {
 }
 element selected.normal {
     border:                      0px 0px 2px 0px;
-    border-radius:               12px;
+    border-radius:               0px;
     border-color:                @selected;
     background-color:            @background-alt;
     text-color:                  @foreground;
